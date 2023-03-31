@@ -1,11 +1,11 @@
-About r-ggvenn
-==============
+About r-ggvenn-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggvenn-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ggvenn
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggvenn-feedstock/blob/main/LICENSE.txt)
 
 Summary: An easy-to-use way to draw pretty venn diagram by 'ggplot2'.
 
