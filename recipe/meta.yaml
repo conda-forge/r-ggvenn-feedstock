@@ -1,4 +1,4 @@
-{% set version = '0.1.9' %}
+{% set version = "0.1.10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggvenn_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggvenn/ggvenn_{{ version }}.tar.gz
-  sha256: 38779cfa4e01e07d4a42453cfb8b93d32d2acd6187676bae7d11b2168714a52e
+  sha256: cde116f117266cca27d8cd20205512e602c23514db6d97caaa950b9b21fa873e
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -44,7 +44,7 @@ about:
   summary: An easy-to-use way to draw pretty venn diagram by 'ggplot2'.
   license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
 
 extra:
